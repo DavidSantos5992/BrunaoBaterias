@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="pt-br">
+
+<!-- Mirrored from www.vasterad.com/themes/hireo/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 29 Nov 2018 16:39:27 GMT -->
+
+<head>
+
+
+
+	<!-- Basic Page Needs
+================================================== -->
+		<title>Brunão Baterias - Baterias Varzea Paulista </title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="icon" type="image/png" sizes="16x16" href="images/favicons/favicon-16x16.png">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="theme-color" content="#ffffff">
+
+	<!-- Meta Tags de Descrição e Palavras-chave -->
+	   <meta name="description"
+		   content="Brunão Baterias - Sua loja de baterias automotivas em Varzea Paulista. Oferecemos uma ampla variedade de marcas e serviços para atender suas necessidades.">
+	   <meta name="keywords"
+		   content="baterias automotivas, bateria de carros em Jundiaí, bateria para carros em Jundiaí, baterias para carro Jundiaí, baterias para moto Jundiaí, baterias Kondor Jundiaí, baterias Eletran Jundiaí, baterias Heliar Jundiaí, baterias Tudor Jundiaí, baterias Excell Jundiaí, baterias Imperio Jundiaí, baterias Lider Jundiaí, baterias Luxor Jundiaí, baterias Moura Jundiaí, baterias Zetta Jundiaí">
+
+	<!-- Open Graph Meta Tags -->
+	   <meta property="og:title" content="Brunão Baterias - Baterias Varzea Paulista">
+	   <meta property="og:description"
+		   content="Brunão Baterias - Sua loja de baterias automotivas em Varzea Paulista. Oferecemos uma ampla variedade de marcas e serviços para atender suas necessidades.">
+	   <meta property="og:title" content="Brunão Baterias - Baterias Jundiaí e Região">
+	   <meta property="og:description"
+		   content="Brunão Baterias - Sua loja de baterias automotivas em Jundiaí. Oferecemos uma ampla variedade de marcas e serviços para atender suas necessidades na região de Jundiaí.">
+	   <meta property="og:url" content="index.html">
+	<meta property="og:type" content="article">
+
+	<!-- CSS
+================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/colors/blue.css">
+
+
+
+
+	<style>
+		/* Estilos do banner */
+		.banner {
+			position: relative;
+			width: 100%;
+			min-height: 500px;
+			height: 100vh;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			color: #fff !important;
+			background-image: url('images/background-frente-loja.jpg');
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+			padding-top: 100px;
+		}
+
+		/* Overlay para o texto ficar mais legível */
+		.banner::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+		}
+
+		/* Conteúdo do banner */
+		.banner-content {
+			position: relative;
+			z-index: 2;
+			/* Garante que o conteúdo fique acima do overlay */
+			max-width: 800px;
+			padding: 0 20px;
+		}
+
+		.banner-content h1 {
+			font-size: 1rem !important;
+			color: #fff !important;
+			text-transform: uppercase;
+		}
+
+		.banner-content h2 {
+			font-size: 2rem;
+			color: #fff !important;
+		}
+
+		.banner-content h2 span {
+			color: yellow;
+		}
+
+		.banner-content p {
+			font-size: 1.5rem;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+
+		.banner-button {
+			display: inline-block;
+			padding: 15px 30px;
+			background-color: #25D366;
+
+			/* Verde do WhatsApp */
+			color: #fff;
+			text-decoration: none;
+			font-size: 1.2rem;
+			font-weight: bold;
+			border-radius: 50px;
+			transition: background-color 0.3s ease;
+		}
+
+		.banner-button:hover {
+			background-color: #11e25e;
+		}
+
+		/* Estilos para o contador de baterias */
+		.banner-stats {
+			margin-top: 40px;
+		}
+
+		.banner-stats strong {
+			display: block;
+			font-size: 3rem;
+		}
+
+		.banner-stats span {
+			font-size: 1.2rem;
+			text-transform: uppercase;
+		}
+
+		.banner-battery-image {
+			margin: 20px auto;
+			/* Centraliza a div e adiciona margem vertical */
+			max-width: 400px;
+			/* Define uma largura máxima para a imagem */
+		}
+
+		/* O código a seguir é essencial para que a imagem seja responsiva */
+		.banner-battery-image img {
+			width: 100%;
+			/* Faz com que a imagem ocupe 100% do seu container */
+			height: auto;
+			/* Mantém a proporção da imagem */
+			display: block;
+			/* Remove o espaço extra abaixo da imagem, comum em tags img */
+		}
+
+		/* Estilos para a seção de categorias */
+		.battery-categories {
+			padding: 60px 0;
+			text-align: center;
+			background-color: #f9f9f9;
+		}
+
+		.category-card {
+			background-color: #fff;
+			border: 1px solid #e0e0e0;
+			border-radius: 8px;
+			padding: 30px;
+			margin-bottom: 30px;
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+			transition: box-shadow 0.3s ease;
+			height: 100%;
+			/* Garante que todos os cards tenham a mesma altura */
+			display: flex;
+			flex-direction: column;
+			justify-content: space-between;
+		}
+
+		.category-card:hover {
+			box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+		}
+
+		.category-image {
+			background-color: #ff0000;
+			width: 100%;
+			height: auto;
+			margin-bottom: 20px;
+			opacity: 0.8;
+		}
+
+		.category-card h3 {
+			font-size: 1.5rem;
+			font-weight: bold;
+			color: #333;
+			margin-bottom: 15px;
+			text-transform: uppercase;
+		}
+
+		.category-card p {
+			font-size: 1rem;
+			color: #666;
+			line-height: 1.6;
+			flex-grow: 1;
+			/* Permite que o parágrafo ocupe o espaço restante */
+		}
+
+		.whatsapp-button {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			background-color: #25D366;
+			color: #fff;
+			padding: 12px 24px;
+			border-radius: 50px;
+			text-decoration: none;
+			font-weight: bold;
+			margin-top: 20px;
+			transition: background-color 0.3s ease;
+		}
+
+		.whatsapp-button:hover {
+			background-color: #128C7E;
+		}
+
+		/* Ícone do WhatsApp */
+		.whatsapp-button i {
+			margin-right: 8px;
+		}
+
+		/* Responsividade para telas menores */
+		@media (max-width: 768px) {
+			.banner-content h1 {
+				font-size: 2rem;
+			}
+
+			.banner-content p {
+				font-size: 1.2rem;
+			}
+
+			.banner-stats strong {
+				font-size: 2rem;
+			}
+		}
+
+
+		/* Estilos para a seção de CTA */
+		.cta-banner {
+			background-image: url('images/banner-entrega.jpg');
+			/* Substitua com o caminho da sua imagem */
+			background-color: #00478a;
+			/* Cor de fundo principal, ajuste para a cor desejada */
+			background-position: right center;
+			background-size: cover;
+			color: #fff;
+			padding: 50px 20px;
+			position: relative;
+			overflow: hidden;
+		}
+
+		/* Overlay sutil para o lado esquerdo */
+		.cta-banner::before {
+			content: '';
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: linear-gradient(to right, rgba(0, 71, 138, 1), rgba(0, 71, 138, 0.6) 50%, rgba(0, 71, 138, 0));
+		}
+
+		.cta-content {
+			display: flex;
+			justify-content: flex-start;
+			align-items: center;
+			max-width: 1200px;
+			margin: 0 auto;
+			position: relative;
+			z-index: 1;
+		}
+
+		.cta-text {
+			border-left: 4px solid #fff;
+			/* A linha branca à esquerda */
+			padding-left: 20px;
+		}
+
+		.cta-text h2 {
+			font-size: 2.5rem;
+			font-weight: bold;
+			margin: 0;
+		}
+
+		.cta-text p {
+			font-size: 1.2rem;
+			margin-top: 10px;
+			margin-bottom: 25px;
+		}
+
+		.cta-buttons {
+			display: flex;
+			flex-wrap: wrap;
+			gap: 15px;
+		}
+
+		.cta-whatsapp-button,
+		.cta-phone-button {
+			display: inline-flex;
+			align-items: center;
+			justify-content: center;
+			gap: 10px;
+			padding: 15px 30px;
+			border-radius: 50px;
+			font-size: 1.1rem;
+			font-weight: bold;
+			text-decoration: none;
+			color: #fff;
+			transition: background-color 0.3s ease;
+		}
+
+		.cta-whatsapp-button {
+			background-color: #25D366;
+		}
+
+
+		.cta-whatsapp-button:hover {
+			background-color: #128C7E;
+		}
+
+		/* Estilos para a Seção de Benefícios e Serviços */
+		.services-section {
+			background-color: #3b82f6;
+			/* Cor de fundo azul principal */
+			padding: 80px 0;
+			color: #333;
+			/* Cor do texto dentro dos cards */
+		}
+
+		.service-card {
+			background-color: #fff;
+			border-radius: 12px;
+			padding: 40px;
+			margin-bottom: 30px;
+			box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+			height: 100%;
+			/* Garante que todos os cards tenham a mesma altura */
+			display: flex;
+			flex-direction: column;
+			justify-content: flex-start;
+			border: 3px solid transparent;
+			/* Adiciona a borda amarela no hover */
+			transition: all 0.3s ease;
+		}
+
+		.service-card:hover {
+			border: 3px solid #fcd34d;
+			/* Borda amarela no hover */
+			box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+		}
+
+		.service-icon {
+			width: 60px;
+			height: 60px;
+			background-color: #fcd34d;
+			/* Cor de fundo amarela para o ícone */
+			border-radius: 50%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin-bottom: 20px;
+		}
+
+		.service-icon svg {
+			color: #333;
+			/* Cor preta para o ícone SVG */
+			width: 32px;
+			height: 32px;
+		}
+
+		.service-card h4 {
+			font-size: 1.5rem;
+			font-weight: bold;
+			margin-top: 0;
+			margin-bottom: 10px;
+		}
+
+		.service-card p {
+			font-size: 1rem;
+			line-height: 1.6;
+			margin: 0;
+		}
+
+		/* Responsividade para telas menores */
+		@media (max-width: 992px) {
+			.service-card {
+				padding: 30px;
+			}
+		}
+
+		/* Media Queries para responsividade */
+		@media (max-width: 992px) {
+			.cta-banner {
+				background-image: none;
+				/* Remove a imagem da moto em telas menores */
+			}
+
+			.cta-banner::before {
+				background: #00478a;
+				/* Mantém a cor de fundo sólida */
+			}
+
+			.cta-content {
+				flex-direction: column;
+				align-items: flex-start;
+			}
+
+			.cta-text {
+				text-align: left;
+			}
+
+			.cta-buttons {
+				flex-direction: column;
+				width: 100%;
+				gap: 10px;
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+
+
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header Container
+================================================== -->
+		<script src="js/header.js"></script>
+
+		<div class="clearfix"></div>
+		<!-- Header Container / End -->
+
+
+
+		<!-- Intro Banner
+================================================== -->
+		<div class="banner">
+			<div class="banner-content">
+				<h1> <strong> Baterias em Jundiaí e Região</strong></h1>
+				<h2>Baterias com Entrega e Instalação <span> Grátis</span></h2>
+				<div class="banner-battery-image">
+					<img src="images/baterias/kond.png" alt="">
+				</div>
+
+				<a href="https://wa.me/55119997861501?text=Vim%20pelo%20site%2C%20gostaria%20de%20um%20or%C3%A7amento%21"
+					class="banner-button" target="_blank" style="display: inline-flex; align-items: center; gap: 8px;">
+					<div class="icon-brand-whatsapp"></div>
+					Pedir Agora
+				</a>
+
+				<div class="banner-stats">
+					<strong>Entrega em até 50 minutos</strong>
+				</div>
+			</div>
+		</div>
+
+		<!-- Content
+================================================== -->
+
+		<section class="battery-categories">
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="category-card">
+							   <img src="images/bateria-para-carro-Brunao-baterias.png"
+								   alt="Bateria para carro automotivo" class="category-image">
+							<h3>Baterias de Carro</h3>
+							<p>
+								Escolha a bateria perfeita para o seu carro e garanta um desempenho seguro e confiável.
+								<strong>Compre agora e receba com instalação grátis!</strong>
+							</p>
+							<a target="_blank"
+								href="https://wa.me/55119997861501?text=Olá, quero comprar uma bateria de carro e aproveitar a instalação grátis!"
+								class="whatsapp-button">
+								<i class="fab fa-whatsapp"></i> Comprar Agora
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="category-card">
+							   <img src="images/bateria-para-moto-Brunao-baterias.png" alt="Bateria para moto"
+								   class="category-image">
+							<h3>Baterias de Moto</h3>
+							<p>
+								Não deixe sua moto parar! Adquira a bateria ideal e desfrute de energia confiável para
+								todas as suas viagens. <strong>Clique e garanta a sua com entrega rápida!</strong>
+							</p>
+							<a target="_blank"
+								href="https://wa.me/55119997861501?text=Olá, quero comprar uma bateria de moto para entrega rápida!"
+								class="whatsapp-button">
+								<i class="fab fa-whatsapp"></i> Comprar Agora
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6 col-sm-12">
+						<div class="category-card">
+							   <img src="images/bateria-para-caminhao-Brunao-baterias.png"
+								   alt="Bateria para caminhão e veículos pesados" class="category-image">
+							<h3>Baterias de Caminhão</h3>
+							<p>
+								Potência total para seu trabalho pesado! Encontre a bateria de alta capacidade que seu
+								caminhão precisa. <strong>Faça seu pedido e receba no local!</strong>
+							</p>
+							<a target="_blank"
+								href="https://wa.me/55119997861501?text=Olá, quero fazer um pedido de bateria de caminhão!"
+								class="whatsapp-button">
+								<i class="fab fa-whatsapp"></i> Fazer Pedido
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="cta-banner">
+			<div class="cta-content">
+				<div class="cta-text">
+					<h2>Precisa de ajuda ?</h2>
+					<p>acione nosso disk baterias, levamos até você em até 50 minutos:</p>
+					<div class="cta-buttons">
+						<a href="https://wa.me/55119997861501?text=Preciso de ajuda com a minha bateria!" target="_blank"
+							class="cta-whatsapp-button">
+
+							<div class="icon-brand-whatsapp"></div>
+							Pedir no WhatsApp
+						</a>
+
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section class="services-section">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-xl-4 col-md-6 col-sm-12 my">
+						<div class="service-card">
+							<div class="service-icon">
+								<span class="icon-feather-phone-call"></span>
+							</div>
+							<h4>Atendimento Emergencial</h4>
+							<p>
+								Seu veículo não pode parar, mas se isso acontecer, nossa equipe estará pronta para
+								fornecer atendimento rápido e eficiente. Seja no trabalho, em casa ou na estrada,
+								garantimos que você retorne à sua rotina sem preocupações.
+							</p>
+							<a target="_blank" href="https://wa.me/55119997861501?text=Olá, vi o site quero uma bateria!"
+								class="whatsapp-button">
+								Comprar Agora
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6 col-sm-12 my">
+						<div class="service-card">
+							<div class="service-icon">
+								<span class="icon-line-awesome-money"></span>
+							</div>
+							<h4>Entrega e Instalação Gratuita</h4>
+							<p>
+								Oferecemos instalação gratuita no local para Regiões de Jundiaí, Itupeva, Louveira,
+								Jundiaí e região. Isso mesmo, sem custo adicional na compra da sua bateria. (Consulte Disponibilidade)
+								bateria. (Consulte Disponibilidade )
+							</p>
+							<a target="_blank" href="https://wa.me/55119997861501?text=Olá, vi o site quero uma bateria!"
+								class="whatsapp-button">
+								Comprar Agora
+							</a>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-6 col-sm-12 my">
+						<div class="service-card">
+							<div class="service-icon">
+								<div class="icon-feather-credit-card"></div>
+							</div>
+							<h4>Parcele em até 3X Sem Juros</h4>
+							<p>
+								Queremos facilitar ainda mais para você. Parcelamos sua compra em até 3x sem juros no
+								cartão. Garantimos que você tenha a energia que precisa, sem pesar no seu bolso.
+								solicite um orçamento agora mesmo!
+							</p>
+							<a target="_blank" href="https://wa.me/55119997861501?text=Olá, vi o site quero uma bateria!"
+								class="whatsapp-button ">
+								Comprar Agora
+							</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+		<!-- Icon Boxes -->
+		<div class="section padding-top-65 padding-bottom-65">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-xl-12">
+						<!-- Section Headline -->
+						<div class="section-headline centered margin-top-0 margin-bottom-5">
+							<h3>Nossos Valores</h3>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-4">
+						<!-- Icon Box -->
+						<div class="icon-box with-line">
+							<!-- Icon -->
+							<div class="icon-box-circle">
+								<div class="icon-box-circle-inner">
+									<i class="icon-line-awesome-lock"></i>
+									<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
+								</div>
+							</div>
+							<h3>Segurança</h3>
+							<p>
+								Nossos técnicos altamente treinados e qualificados estão comprometidos em seguir os mais
+								rigorosos padrões de segurança. Desde a avaliação inicial até a instalação da nova
+								bateria, cada passo é executado com precisão e cuidado para minimizar riscos e assegurar
+								o desempenho ideal do seu veículo.</p>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-4">
+						<!-- Icon Box -->
+						<div class="icon-box with-line">
+							<!-- Icon -->
+							<div class="icon-box-circle">
+								<div class="icon-box-circle-inner">
+									<i class="icon-line-awesome-legal"></i>
+									<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
+								</div>
+							</div>
+							<h3>Responsabilidade</h3>
+							<p>Nossos especialistas seguem práticas responsáveis durante todo o processo,
+								desde a manipulação segura de baterias antigas até a escolha de soluções ambientalmente
+								conscientes. A responsabilidade não se limita apenas à qualidade do serviço, mas também
+								à nossa contribuição para um mundo mais sustentável.</p>
+						</div>
+					</div>
+
+					<div class="col-xl-4 col-md-4">
+						<!-- Icon Box -->
+						<div class="icon-box">
+							<!-- Icon -->
+							<div class="icon-box-circle">
+								<div class="icon-box-circle-inner">
+									<i class=" icon-line-awesome-trophy"></i>
+									<div class="icon-box-check"><i class="icon-material-outline-check"></i></div>
+								</div>
+							</div>
+							<h3>competências</h3>
+							<p>Nossos técnicos especializados possuem competências abrangentes, desde o diagnóstico
+								preciso até a instalação eficiente da nova bateria. Estamos comprometidos em manter um
+								padrão elevado de competência técnica, garantindo que cada cliente receba um serviço de
+								qualidade excepcional.
+							</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div class="section gray padding-top-65 padding-bottom-55">
+
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<!-- Section Headline -->
+						<div class="section-headline centered margin-top-0 margin-bottom-5">
+							<h3>Clientes Satisfeitos</h3>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- Categories Carousel -->
+			<div class="fullwidth-carousel-container margin-top-20">
+				<div class="testimonial-carousel testimonials">
+
+					   <!-- Item 1 -->
+					   <div class="fw-carousel-review">
+						   <div class="testimonial-box">
+							   <div class="testimonial-avatar">
+								   <img class="img-fluid" alt="Avatar cliente" src="images/user-avatar-big-01.jpg">
+							   </div>
+							   <div class="testimonial-author">
+								   <h4>João Silva</h4>
+							   </div>
+							   <div class="testimonial">Atendimento rápido e eficiente, recomendo a todos de Jundiaí!</div>
+						   </div>
+					   </div>
+
+					   <!-- Item 2 -->
+					   <div class="fw-carousel-review">
+						   <div class="testimonial-box">
+							   <div class="testimonial-avatar">
+								   <img class="img-fluid" alt="Avatar cliente" src="images/user-avatar-big-02.jpg">
+							   </div>
+							   <div class="testimonial-author">
+								   <h4>Pedro Oliveira</h4>
+							   </div>
+							   <div class="testimonial">Equipe muito atenciosa, resolveram meu problema no mesmo dia!</div>
+						   </div>
+					   </div>
+
+					   <!-- Item 3 -->
+					   <div class="fw-carousel-review">
+						   <div class="testimonial-box">
+							   <div class="testimonial-avatar">
+								   <img class="img-fluid" alt="Avatar cliente" src="images/user-avatar-big-01.jpg">
+							   </div>
+							   <div class="testimonial-author">
+								   <h4>Carlos Souza</h4>
+							   </div>
+							   <div class="testimonial">Serviço de qualidade, bateria instalada rapidamente. Muito satisfeito!</div>
+						   </div>
+					   </div>
+
+					   <!-- Item 4 -->
+					   <div class="fw-carousel-review">
+						   <div class="testimonial-box">
+							   <div class="testimonial-avatar">
+								   <img class="img-fluid" alt="Avatar cliente" src="images/user-avatar-big-03.jpg">
+							   </div>
+							   <div class="testimonial-author">
+								   <h4>Ana Paula</h4>
+							   </div>
+							   <div class="testimonial">Ótimo atendimento e entrega super rápida em Jundiaí!</div>
+						   </div>
+					   </div>
+
+				</div>
+			</div>
+			<!-- Categories Carousel / End -->
+
+		</div>
+
+		<div class="section padding-top-70 padding-bottom-75">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-xl-12">
+						<div class="counters-container">
+							<!-- Counter -->
+							<div class="single-counter">
+								<i class="icon-line-awesome-trophy"></i>
+								<div class="counter-inner">
+									<h3><span class="counter">99</span>%</h3>
+									<span class="counter-title">Clientes satisfeito</span>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="section border-top padding-top-45 padding-bottom-45">
+			<!-- Logo Carousel -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xl-12">
+						<!-- Carousel -->
+						<div class="col-md-12">
+							<div class="logo-carousel">
+
+								<div class="carousel-item">
+									<a href="#" target="_blank" title="#"><img src="images/baterias/agm.png"
+											alt="Bateria automotiva agm"></a>
+								</div>
+
+								<div class="carousel-item">
+									<a href="#" target="_blank" title="#"><img src="images/baterias/excellSemFundo.png"
+											alt="Bateria automotiva Exell"></a>
+								</div>
+
+								<div class="carousel-item">
+									<a href="#" target="_blank" title="#"><img src="images/baterias/imperio.jpg"
+											alt="Bateria automotiva imperi"></a>
+								</div>
+
+								<div class="carousel-item">
+									<a href="#" target="_blank" title="#"><img src="images/baterias/lider.png"
+											alt="Bateria automotiva Lider"></a>
+								</div>
+
+								<div class="carousel-item">
+									<a href="#" target="_blank" title="#"><img src="images/baterias/luxor.jpg"
+											alt="Bateria automotiva Luxor"></a>
+								</div>
+
+								<div class="carousel-item">
+									<a href="#" target="_blank" title="#"><img src="images/baterias/moura.png"
+											alt="Bateria automotiva Moura"></a>
+								</div>
+
+							</div>
+						</div>
+						<!-- Carousel / End -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- Footer   -->
+		<script src="js/footer.js"></script>
+
+	</div>
+
+	<a href="https://wa.me/55119997861501?text=Olá, vim pelo site e gostaria de um orçamento!" target="_blank"
+		class="whatsapp-float-button">
+		<div class="whatsapp-float-icon">
+			<div class="icon-brand-whatsapp"></div>
+
+		</div>
+		<button class="whatsapp-float-text">
+			<span>(11) 99786-1501</span>
+			<small>Converse por Whatsapp</small>
+		</button>
+	</a>
+
+	<!-- Scripts -->
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/jquery-migrate-3.0.0.min.js"></script>
+	<script src="js/mmenu.min.js"></script>
+	<script src="js/tippy.all.min.js"></script>
+	<script src="js/simplebar.min.js"></script>
+	<script src="js/bootstrap-slider.min.js"></script>
+	<script src="js/bootstrap-select.min.js"></script>
+	<script src="js/snackbar.js"></script>
+	<script src="js/clipboard.min.js"></script>
+	<script src="js/counterup.min.js"></script>
+	<script src="js/magnific-popup.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/custom.js"></script>
+
+	<!-- Snackbar // documentation: https://www.polonel.com/snackbar/ -->
+	<script>
+		// Snackbar for user status switcher
+		$('#snackbar-user-status label').click(function () {
+			Snackbar.show({
+				text: 'Your status has been changed!',
+				pos: 'bottom-center',
+				showAction: false,
+				actionText: "Dismiss",
+				duration: 3000,
+				textColor: '#fff',
+				backgroundColor: '#383838'
+			});
+		}); 
+	</script>
+
+
+
+
+</body>
+
+
+</html>
