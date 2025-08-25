@@ -839,17 +839,90 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<script src="js/footer.js"></script>
 
 	
+
 	<a href="https://wa.me/55119997861501?text=Olá, vim pelo site e gostaria de um orçamento!" target="_blank"
 		class="whatsapp-float-button">
 		<div class="whatsapp-float-icon">
 			<div class="icon-brand-whatsapp"></div>
-
 		</div>
 		<button class="whatsapp-float-text">
 			<span>(11) 99786-1501</span>
 			<small>Converse por Whatsapp</small>
 		</button>
 	</a>
+
+	<!-- Botão Ligar Agora flutuante -->
+	<a href="tel:+5511997861501" class="call-float-button" title="Ligar Agora">
+		<div class="call-float-icon">
+			<svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" fill="#fff" viewBox="0 0 24 24"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2a1 1 0 011.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 011 1V21a1 1 0 01-1 1C10.07 22 2 13.93 2 3a1 1 0 011-1h4.5a1 1 0 011 1c0 1.25.2 2.46.57 3.58a1 1 0 01-.24 1.01l-2.2 2.2z"/></svg>
+		</div>
+		<button class="call-float-text">
+			<span>Ligar Agora</span>
+			<small>(11) 99786-1501</small>
+		</button>
+	</a>
+
+	<style>
+		.call-float-button {
+			position: fixed;
+			right: 20px;
+			bottom: 90px;
+			z-index: 9999;
+			display: flex;
+			align-items: center;
+			background: #3b82f6;
+			color: #fff;
+			border-radius: 50px;
+			box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+			text-decoration: none;
+			padding: 8px 18px 8px 8px;
+			transition: background 0.3s;
+		}
+		.call-float-button:hover {
+			background: #2563eb;
+		}
+		.call-float-icon {
+			background: #2563eb;
+			border-radius: 50%;
+			width: 44px;
+			height: 44px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			margin-right: 10px;
+		}
+		.call-float-text {
+			background: none;
+			border: none;
+			color: #fff;
+			font-size: 1.1rem;
+			font-weight: bold;
+			display: flex;
+			flex-direction: column;
+			align-items: flex-start;
+			cursor: pointer;
+			padding: 0;
+		}
+		.call-float-text small {
+			font-size: 0.85rem;
+			font-weight: normal;
+			opacity: 0.8;
+		}
+		@media (max-width: 600px) {
+			.call-float-button {
+				right: 12px;
+				bottom: 80px;
+				padding: 8px 12px 8px 8px;
+			}
+			.call-float-icon {
+				width: 38px;
+				height: 38px;
+			}
+			.call-float-text {
+				font-size: 1rem;
+			}
+		}
+	</style>
 
 	<!-- Scripts -->
 	<script src="js/jquery-3.3.1.min.js"></script>
