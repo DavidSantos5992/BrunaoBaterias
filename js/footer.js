@@ -33,30 +33,18 @@ function includeHeader() {
                     <div class="footer-links">
                         <h3>Endereço:</h3>
                         <ul>
-                            <li><a
-                                    href="https://www.google.com/maps/search/?api=1&query=Av.%20Duque%20de%20Caxias,%2081%20-%20Centro%20V%C3%A1rzea%20Paulista%20-%20SP%2013220-015%20Brasil">
+                <li><a
+                    href="https://www.google.com/maps/search/?api=1&query=Rua%20Adolfo%20Torricelli,%20189%20-%20Vila%20Vianelo%20Jundiaí%20-%20SP">
 
-                                    <span>Av. Duque de Caxias, 81 - Centro Várzea Paulista
-                                    </span></a>
+                    <span>Rua Adolfo Torricelli, 189 - Vila Vianelo, Jundiaí - SP</span></a>
                             </li>
                         </ul>
                     </div>
                 </div>
 
-                <a href="https://www.instagram.com/paulinhobaterias/" target="_blank" class="glyph fs1">
-                    <div class="clearfix bshadow0 pbs">
-                        <span class="icon-feather-instagram"></span>
-                        <span class="mls"> Instagram</span>
-                    </div>
-                </a>
+               
 
-                <a href="https://www.facebook.com/profile.php?id=61552045700017" target="_blank" class="glyph fs1">
-                    <div class="clearfix bshadow0 pbs">
-                        <span class="icon-feather-facebook"></span>
-                        <span class="mls">Facebook</span>
-                    </div>
-                </a>
-
+               
                 <a href="https://wa.me/5511933969523?text=Vim%20pelo%20site,%20gostaria%20de%20um%20orçamento!" target="_blank" class="glyph fs1">
                     <div class="clearfix bshadow0 pbs">
                         <span class="icon-line-awesome-whatsapp">

@@ -22,15 +22,7 @@ function includeHeader() {
 
                         <li><a href="./index.html" class="current">Home</a>
 
-                        </li>
-
-                        <li><a href="baterias.html">Baterias</a>
-
-                        </li>
-
-                        <li><a href="./contato.html">Sobre</a>
-
-                        </li>
+                       
 
 
                     </ul>
